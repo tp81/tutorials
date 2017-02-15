@@ -82,6 +82,16 @@ arguments);b&&"FORM"===b.nodeName&&b.submit&&(b.submit=c(b.submit));return b}}(d
 </div>
         </td>
         <td class="bkr">
+		<div style="position: absolute; padding: 1em; margin-top: 80px; font-size: 14px; width: 450px; float: right; right: 10px; border: 1px solid black; background: #ddd">
+			<p>
+			<b>NOTE:</b> These are static renderings of <a href="http://beakernotebook.com/">Beaker</a> tutorial notebooks intended to show how to use <a href="https://imagej.net/ImageJ2">ImageJ2</a> component libraries.
+			</p>
+			<ul>
+				<li>The actual notebooks are on GitHub at <a href="https://github.com/imagej/tutorials">imagej/tutorials</a>. Look for the <code>.bkr</code> files. Unfortunately, GitHub does not render Beaker notebooks; please install Beaker to fully enjoy them!</li>
+				<li>Many notebooks are still incomplete. They will be written as time allows. Please feel welcome to contribute.</li>
+				<li>We know that everyone wants these in Jupyter format (<code>.ipynb</code>) too&mdash;so do we! We are working on it! (Hint: <a href="https://github.com/hadim/scijava-jupyter-kernel/">it will be awesome</a>.)</li>
+			</ul>
+		</div>
           <div ng-switch="renamingAllowed()" style="padding-top: 10px" class="bkr">
             <!----><a ng-switch-when="true" href="http://127.0.0.1:8801/6dac09a/beaker/#" class="navbar-text path-name bkr full" ng-class="{full: !loading &amp;&amp; !loadingmsg}" ng-click="renameNotebook()" eat-click="">ImageJ Tutorials and Demo.bkr</a><!---->
             <!---->

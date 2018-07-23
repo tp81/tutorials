@@ -8,6 +8,7 @@ dependencies:
   - numpy
   - scikit-image
   - matplotlib
-  - rise
-  - scijava-jupyter-kernel
   - imglib2-imglyb
+  - beakerx
+  - scijava-jupyter-kernel
+  - rise

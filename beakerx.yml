@@ -1,8 +1,0 @@
-name: beakerx
-channels:
-  - damianavila82
-  - conda-forge
-  - hanslovsky
-dependencies:
-  - beakerx
-  - rise

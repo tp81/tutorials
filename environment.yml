@@ -13,3 +13,4 @@ dependencies:
   - imglib2-imglyb
   - pip:
     - imagej
+  - beakerx
